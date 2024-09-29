@@ -57,7 +57,7 @@ class TradingBot:
                     price_interval_percent):    
         new_entry = {
             "stellar_key": stellar_key,
-            "created_date": datetime.datetime.now().isoformat()
+            "created_date": datetime.now().isoformat()  # Corrected line
         }
         existing_data = get_existing_data()
         existing_data.append(new_entry)
