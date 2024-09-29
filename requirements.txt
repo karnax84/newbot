@@ -1,0 +1,9 @@
+streamlit
+stellar-sdk
+pandas
+matplotlib
+plotly
+pytest
+requests
+pyyaml
+tzlocal
